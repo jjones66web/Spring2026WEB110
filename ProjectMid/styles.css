@@ -1,0 +1,117 @@
+
+/*Jimmie S Jones 03/10/2026! Midterm Project*/
+
+/*main setup of the webpage with the background picture and font*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: url("images/garden.jpg") no-repeat center fixed;
+	background-size: cover;
+	font-size: 18px;
+	
+}
+
+/*Setup of main */
+main{
+	background-color: #D2B48C;
+	width: 50%;
+	margin: auto;
+		margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px Black;
+	
+}
+
+/*Size of the header for webpages with the styling of it*/
+header{
+	
+	min-height: 100px;
+	text-align: center;
+	color: Black;
+	padding: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+	margin-top: 5px;
+	background-color: #c7b2ae;
+	max-width: 760px;
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 20px 20px 10px black;
+	text-decoration: underline;
+}
+	
+	/*Style of the navigation links*/
+nav{
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+	margin-top: 5px;
+	background-color: #c7b2ae;
+	max-width: 600px;
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 20px 20px 10px black;
+}
+
+nav a{
+	text-decoration: Solid;
+	color: #29485d;
+	padding: 10px
+}
+
+/*Color when you hover over nav links*/
+nav a:hover {
+	color: #ff5733;
+}
+
+h1{
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+h2{
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+h3{
+	font-family: Georgia, "Times New Roman", serif;
+	color: #29485d;
+}
+
+/*Line Height per listed order*/
+li{
+  line-height: 1.5;
+}
+
+
+#contact {
+	text-align: center;
+	padding: 15px;
+	margin-top: 20px;
+	background-color: #c7b2ae;
+	
+}
+
+
+/*Sizes of image with drop box shadowing*/
+.attraction-image {
+	max-width: 600px;
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	
+}
+
+
+footer{
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 20px;
+	background-color: #c7b2ae;
+	width: 25%;
+	margin: auto;
+	box-shadow: 10px 10px 10px black;
+	
+}
