@@ -1,0 +1,82 @@
+
+/*Jimmie S Jones 03/28/2026! Project 8 Windows 3.11 Hotdog Wallpaper*/
+
+/*Universal Selecter for every element on page*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*main setup of the webpage with the background picture and font*/
+body{
+	background-color: yellow;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+
+.wrapper {
+	max-width: 800px;
+	margin: 20px auto;
+	background-color: red;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 6px 10px rgba(0,0,0,0.6);
+}
+
+	
+
+
+nav ul {
+list-style: none;
+background-color: #333;
+padding: 10px;
+}	
+
+nav ul li{
+	display: inline;
+	margin: 0 15px;
+}
+	
+
+nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+/*Color when you hover over nav links with Underline.  FANCY*/
+nav a:hover {
+	color: #ff5733;
+	text-decoration: underline;
+}
+
+/*Color when you visited a site already.  SUPER FANCY*/
+nav a:visited {
+color: purple;
+}
+
+/*Not in Homework Instructions but I wanted to mess around with the image with it popping out a bit*/
+.content img {
+width: 100px;
+height: 100px;
+float: left;
+margin-right: 20px;
+border-radius: 8px;
+box-shadow: 10px 10px 5px black;
+
+}
+
+.content p {
+  text-align: center;
+}
+
+.footer{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border-radius: 8px;
+}
