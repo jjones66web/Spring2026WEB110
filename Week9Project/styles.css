@@ -1,0 +1,152 @@
+
+/*Jimmie S Jones 04/05/2026 My Little Toaster Webpage*/
+
+/*Universal Selecter for every element on page*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*main setup of the webpage with the background picture and font*/
+body{
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+
+
+.wrapper {
+	max-width: 70%;
+	margin: auto;
+	padding: 20px;
+}
+
+nav ul {
+list-style: none;
+background-color: #333;
+padding: 10px;
+}	
+
+nav ul li{
+	display: inline;
+	margin: 0 15px;
+}
+	
+nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/*No color this time, just with Underline.  FANCY*/
+nav a:hover {
+	text-decoration: underline;
+}
+
+/*Color when you visited a site already.  SUPER FANCY LIGHT GRAY*/
+nav a:visited {
+color: lightgray;
+}
+
+/*Not in Homework Instructions but I wanted to mess around with the image with it popping out a bit*/
+.hero {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 40px;
+background-color: #e3e3e3;
+}
+
+.hero img {
+width: 30%;
+margin-right: 20px;
+border-radius: 10px;
+}
+
+.hero-text {
+	max-width: 70%;
+	text-align: left;
+}
+
+.features {
+	gap: 20px;
+	display: grid;
+	padding: 20px; 
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.feature {
+	background-color: white;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.feature img {
+	width: 40%;
+}
+
+
+.footer{
+  margin-top: 20px;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+/* For devices with a minimum width of 768px (Medium) */
+@media screen and (max-width: 768px) {
+	.hero{
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	.hero img{
+		width: 250px;
+		margin-bottom: 15px;
+	}
+
+	.hero-text {
+		max-width: 100%;
+		text-align: center;
+	}
+	
+	nav ul {
+		padding: 10px;
+		text-align: center;
+	}
+	
+	nav ul li {
+		display: block;
+		margin: 10px 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	
+	.wrapper {
+		padding: 10px;
+	}
+	
+	.hero img {
+		width: 200px;
+	}
+
+	.features {
+		grid-template-columns: 1fr;
+	}
+
+	nav ul {
+		padding: 5px;
+	}
+	
+	nav ul li {
+	margin: 5px 0;
+	}
+	
+	nav a {
+		font-size: 16px;
+	}
+		
+}
